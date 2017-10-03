@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Instance>
+	<Config>
+		<Client name="SBJS" env="PROD" emr="AthenaHealth" />
+		<Target env="PROD" active="true" />
+		<Target env="STAGE" active="false" />
+		<Target env="TEST" active="false" />
+	</Config>
+</Instance>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration>
+	<EMR>
+		<AthenaHealth>
+			<Environment value="PROD">
+				<Key>426gasxjdbjfurd2d68qs883</Key>
+				<Secret>fz9D9WamTHh2PMS</Secret>
+				<Url>https://api.athenahealth.com/v1/</Url>
+			</Environment>
+			<Environment value="STAGE">
+				<Key>5gd6zehfh6cfq8f4sz6tw5ta</Key>
+				<Secret>ex4QnSvSd5cxHBY</Secret>
+				<Url>https://api.athenahealth.com/preview1/</Url>
+			</Environment>
+			<Environment value="TEST">
+				<Key>5gd6zehfh6cfq8f4sz6tw5ta</Key>
+				<Secret>ex4QnSvSd5cxHBY</Secret>
+				<Url>https://api.athenahealth.com/preview1/</Url>
+			</Environment>
+		</AthenaHealth>
+		<Allscripts>
+			<Environment value="PROD">
+				
+			</Environment>
+			<Environment value="STAGE">
+				
+			</Environment>
+			<Environment value="TEST">
+				
+			</Environment>
+		</Allscripts>
+		<Greenway>
+			<Environment value="PROD">
+				
+			</Environment>
+			<Environment value="STAGE">
+				
+			</Environment>
+			<Environment value="TEST">
+				
+			</Environment>
+		</Greenway>
+	</EMR>
+	<Clients>
+		<Client name="SBJS" emr="AthenaHealth" env="PROD" target="PROD" />
+		<Client name="IMA" emr="AthenaHealth" env="PROD" target="PROD" />
+	</Clients>
+</Configuration>

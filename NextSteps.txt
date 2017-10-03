@@ -1,0 +1,7 @@
+1)  Need to finish the Athena Endpoints class and Enums
+
+2)  Need to work on the Authorization call
+
+3)  Need to work on the Athena HTTP Call
+
+4)  GET STARTED ON SUNRISE (ALLSCRIPTS)
